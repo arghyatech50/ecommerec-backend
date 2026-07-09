@@ -7,7 +7,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-    origin: 'http://localhost:5173', // Adjust as needed
+    origin: ['http://localhost:5173', 'https://your-frontend-domain.vercel.app'],// Add your frontend domain here
     credentials: true
 }));
 app.use(express.json());
