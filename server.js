@@ -7,7 +7,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://your-frontend-domain.vercel.app'],// Add your frontend domain here
+    origin: ['http://localhost:5173', 'https://ecommerece-frontend-gamma.vercel.app/'],// Add your frontend domain here
     credentials: true
 }));
 app.use(express.json());
